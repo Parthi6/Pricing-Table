@@ -1,0 +1,109 @@
+.title{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    
+    background: #DEDEDE;
+
+}
+.wrapper{
+    width: 700px;
+    margin: 5% auto;
+}
+.Single-Price{
+    width: 33%;
+    background: #262626;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+/* .price{ 
+    width: 120px;
+    height: 40px;
+    border-radius: 8%;
+    border: 2px solid #eee;
+    margin: 7% auto 0 auto;
+    text-align: center;
+   
+}
+ */
+
+.deals{
+    margin-top: 5%;
+
+}
+.Single-Price h1{
+    font-size: 28px;
+    color: #F8AE1B;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.price h2{
+    text-decoration: none;
+    background:none ;
+    border:2px solid #fff;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    
+}
+.deals h4{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1px;
+    font-size: 20px;
+}
+.Single-Price:hover{
+background:#F8AE1B;
+color: #fff;
+box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+transform: scale(1.1);
+z-index: 1;
+border-radius: 25px;
+}
+.Single-Price:hover .price h2{
+border-radius: 15px;
+border-color: #fff;
+background-color: white;
+color:black;
+font-weight: bold;
+
+}
+.Single-Price a{
+    text-decoration: none;
+    background:#F8AE1B ;
+    color: black;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Single-Price:hover a{
+    background: black;
+    color: #fff;
+    border-radius: 25px;
+}
+.Single-Price:hover h1{
+    color:black;
+}
+.Single-Price:hover .deals h4{
+    color: black;
+}
